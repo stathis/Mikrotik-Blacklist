@@ -3,7 +3,7 @@
 # firehol_level1
 # Author: Stathis Oureilidis <stathis@stathis.ch>
 #
-# Generation: Sat, 16 Oct 2021 00:15:01 +0300
+# Generation: Sat, 16 Oct 2021 06:15:01 +0300
 #
 ip firewall address-list
 remove [/ip firewall address-list find list=__firehol_level1]
@@ -25,7 +25,6 @@ add list=__firehol_level1 address=23.89.102.127
 add list=__firehol_level1 address=23.107.49.18
 add list=__firehol_level1 address=23.107.124.53
 add list=__firehol_level1 address=23.110.15.74
-add list=__firehol_level1 address=23.227.38.65
 add list=__firehol_level1 address=23.229.213.5
 add list=__firehol_level1 address=23.231.218.195
 add list=__firehol_level1 address=23.236.62.147
