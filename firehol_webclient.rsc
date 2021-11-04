@@ -3,7 +3,7 @@
 # firehol_webclient
 # Author: Stathis Oureilidis <stathis@stathis.ch>
 #
-# Generation: Thu, 04 Nov 2021 12:15:08 +0200
+# Generation: Thu, 04 Nov 2021 18:15:08 +0200
 #
 ip firewall address-list
 remove [/ip firewall address-list find list=__firehol_webclient]
@@ -536,6 +536,7 @@ add list=__firehol_webclient address=149.202.170.60
 add list=__firehol_webclient address=149.202.238.204
 add list=__firehol_webclient address=150.136.244.52
 add list=__firehol_webclient address=151.236.51.83
+add list=__firehol_webclient address=154.23.177.97
 add list=__firehol_webclient address=154.72.163.143
 add list=__firehol_webclient address=156.54.179.186
 add list=__firehol_webclient address=156.146.56.108
@@ -583,7 +584,6 @@ add list=__firehol_webclient address=162.247.74.202
 add list=__firehol_webclient address=162.247.74.204
 add list=__firehol_webclient address=162.247.74.206
 add list=__firehol_webclient address=162.247.74.213
-add list=__firehol_webclient address=162.255.166.188
 add list=__firehol_webclient address=163.172.66.247
 add list=__firehol_webclient address=163.172.207.190
 add list=__firehol_webclient address=163.172.255.139
@@ -817,6 +817,7 @@ add list=__firehol_webclient address=205.185.121.209
 add list=__firehol_webclient address=205.185.127.219
 add list=__firehol_webclient address=205.214.204.100
 add list=__firehol_webclient address=206.84.142.4
+add list=__firehol_webclient address=206.119.90.25
 add list=__firehol_webclient address=206.188.193.120
 add list=__firehol_webclient address=206.190.197.160
 add list=__firehol_webclient address=207.244.70.35
@@ -853,6 +854,7 @@ add list=__firehol_webclient address=217.115.10.132
 add list=__firehol_webclient address=217.160.0.152
 add list=__firehol_webclient address=217.160.0.225
 add list=__firehol_webclient address=217.160.0.237
+add list=__firehol_webclient address=217.160.0.240
 add list=__firehol_webclient address=217.170.202.114
 add list=__firehol_webclient address=219.94.128.34
 add list=__firehol_webclient address=219.129.237.218
