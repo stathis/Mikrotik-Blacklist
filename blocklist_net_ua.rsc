@@ -3,7 +3,7 @@
 # blocklist_net_ua
 # Author: Stathis Oureilidis <stathis@stathis.ch>
 #
-# Generation: Sat, 26 Mar 2022 20:15:07 +0200
+# Generation: Sun, 27 Mar 2022 00:15:07 +0200
 #
 ip firewall address-list
 remove [/ip firewall address-list find list=__blocklist_net_ua]
