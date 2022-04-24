@@ -3,7 +3,7 @@
 # blocklist_net_ua
 # Author: Stathis Oureilidis <stathis@stathis.ch>
 #
-# Generation: Sun, 24 Apr 2022 04:15:08 +0300
+# Generation: Sun, 24 Apr 2022 08:15:08 +0300
 #
 ip firewall address-list
 remove [/ip firewall address-list find list=__blocklist_net_ua]
@@ -25697,7 +25697,6 @@ add list=__blocklist_net_ua address=50.87.144.141
 add list=__blocklist_net_ua address=50.87.144.165
 add list=__blocklist_net_ua address=50.87.144.189
 add list=__blocklist_net_ua address=50.87.222.88
-add list=__blocklist_net_ua address=50.87.253.29
 add list=__blocklist_net_ua address=50.90.62.239
 add list=__blocklist_net_ua address=50.92.122.7
 add list=__blocklist_net_ua address=50.101.198.9
