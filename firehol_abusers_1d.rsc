@@ -3,7 +3,7 @@
 # firehol_abusers_1d
 # Author: Stathis Oureilidis <stathis@stathis.ch>
 #
-# Generation: Wed, 10 Aug 2022 04:15:02 +0300
+# Generation: Wed, 10 Aug 2022 08:15:01 +0300
 #
 ip firewall address-list
 remove [/ip firewall address-list find list=__firehol_abusers_1d]
@@ -6181,6 +6181,7 @@ add list=__firehol_abusers_1d address=176.61.140.49
 add list=__firehol_abusers_1d address=176.61.140.78
 add list=__firehol_abusers_1d address=176.61.140.83
 add list=__firehol_abusers_1d address=176.61.140.91
+add list=__firehol_abusers_1d address=176.67.81.6
 add list=__firehol_abusers_1d address=176.67.82.3
 add list=__firehol_abusers_1d address=176.67.84.10
 add list=__firehol_abusers_1d address=176.67.84.14
