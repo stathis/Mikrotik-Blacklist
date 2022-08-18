@@ -3,7 +3,7 @@
 # firehol_webclient
 # Author: Stathis Oureilidis <stathis@stathis.ch>
 #
-# Generation: Thu, 18 Aug 2022 12:15:08 +0300
+# Generation: Thu, 18 Aug 2022 16:15:08 +0300
 #
 ip firewall address-list
 remove [/ip firewall address-list find list=__firehol_webclient]
@@ -18,12 +18,11 @@ add list=__firehol_webclient address=3.8.118.225
 add list=__firehol_webclient address=3.10.154.55
 add list=__firehol_webclient address=3.15.29.136
 add list=__firehol_webclient address=3.16.113.79
-add list=__firehol_webclient address=3.19.116.195
 add list=__firehol_webclient address=3.26.166.29
 add list=__firehol_webclient address=3.66.87.146
 add list=__firehol_webclient address=3.86.216.232
 add list=__firehol_webclient address=3.88.28.32
-add list=__firehol_webclient address=3.130.204.160
+add list=__firehol_webclient address=3.130.253.23
 add list=__firehol_webclient address=3.131.151.28
 add list=__firehol_webclient address=3.142.132.11
 add list=__firehol_webclient address=3.142.173.165
@@ -102,7 +101,6 @@ add list=__firehol_webclient address=18.116.28.18
 add list=__firehol_webclient address=18.117.93.110
 add list=__firehol_webclient address=18.117.132.133
 add list=__firehol_webclient address=18.117.165.196
-add list=__firehol_webclient address=18.119.154.66
 add list=__firehol_webclient address=18.188.181.78
 add list=__firehol_webclient address=18.191.162.190
 add list=__firehol_webclient address=18.206.151.214
@@ -244,6 +242,7 @@ add list=__firehol_webclient address=20.151.207.220
 add list=__firehol_webclient address=20.151.225.227
 add list=__firehol_webclient address=20.163.106.100
 add list=__firehol_webclient address=20.168.24.112
+add list=__firehol_webclient address=20.168.98.4
 add list=__firehol_webclient address=20.185.20.255
 add list=__firehol_webclient address=20.185.67.78
 add list=__firehol_webclient address=20.185.68.103
@@ -597,6 +596,8 @@ add list=__firehol_webclient address=52.40.17.212
 add list=__firehol_webclient address=52.42.139.91
 add list=__firehol_webclient address=52.45.185.118
 add list=__firehol_webclient address=52.56.220.146
+add list=__firehol_webclient address=52.71.57.184
+add list=__firehol_webclient address=52.86.6.113
 add list=__firehol_webclient address=52.137.80.241
 add list=__firehol_webclient address=52.140.209.255
 add list=__firehol_webclient address=52.142.185.202
@@ -641,7 +642,6 @@ add list=__firehol_webclient address=54.188.241.137
 add list=__firehol_webclient address=54.202.41.250
 add list=__firehol_webclient address=54.202.155.162
 add list=__firehol_webclient address=54.205.152.31
-add list=__firehol_webclient address=54.209.32.212
 add list=__firehol_webclient address=54.211.54.36
 add list=__firehol_webclient address=54.218.242.178
 add list=__firehol_webclient address=54.226.112.96
@@ -732,7 +732,6 @@ add list=__firehol_webclient address=74.208.52.100
 add list=__firehol_webclient address=74.208.75.207
 add list=__firehol_webclient address=74.208.182.178
 add list=__firehol_webclient address=74.208.206.239
-add list=__firehol_webclient address=74.208.236.193
 add list=__firehol_webclient address=74.208.236.248
 add list=__firehol_webclient address=74.220.18.117
 add list=__firehol_webclient address=75.127.11.24
@@ -1043,6 +1042,7 @@ add list=__firehol_webclient address=111.6.78.220
 add list=__firehol_webclient address=112.25.204.219
 add list=__firehol_webclient address=112.74.185.67
 add list=__firehol_webclient address=112.134.15.176
+add list=__firehol_webclient address=112.213.87.130
 add list=__firehol_webclient address=112.213.89.115
 add list=__firehol_webclient address=112.213.116.26
 add list=__firehol_webclient address=112.252.227.219
@@ -1758,6 +1758,7 @@ add list=__firehol_webclient address=216.83.55.14
 add list=__firehol_webclient address=216.108.231.54
 add list=__firehol_webclient address=216.193.159.109
 add list=__firehol_webclient address=216.218.134.12
+add list=__firehol_webclient address=216.226.146.44
 add list=__firehol_webclient address=216.226.149.48
 add list=__firehol_webclient address=216.226.150.79
 add list=__firehol_webclient address=217.21.74.188
