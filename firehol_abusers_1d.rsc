@@ -3,7 +3,7 @@
 # firehol_abusers_1d
 # Author: Stathis Oureilidis <stathis@stathis.ch>
 #
-# Generation: Sat, 10 Sep 2022 04:15:02 +0300
+# Generation: Sat, 10 Sep 2022 08:15:02 +0300
 #
 ip firewall address-list
 remove [/ip firewall address-list find list=__firehol_abusers_1d]
@@ -2186,8 +2186,6 @@ add list=__firehol_abusers_1d address=64.98.241.38
 add list=__firehol_abusers_1d address=64.113.32.29
 add list=__firehol_abusers_1d address=64.124.8.52
 add list=__firehol_abusers_1d address=64.137.102.159
-add list=__firehol_abusers_1d address=64.145.67.241
-add list=__firehol_abusers_1d address=64.145.79.57
 add list=__firehol_abusers_1d address=64.227.106.137
 add list=__firehol_abusers_1d address=64.246.133.6
 add list=__firehol_abusers_1d address=65.19.167.90
@@ -2248,7 +2246,6 @@ add list=__firehol_abusers_1d address=68.225.121.8
 add list=__firehol_abusers_1d address=68.235.32.248
 add list=__firehol_abusers_1d address=68.235.33.142
 add list=__firehol_abusers_1d address=68.235.44.76
-add list=__firehol_abusers_1d address=69.16.172.11
 add list=__firehol_abusers_1d address=69.36.182.97
 add list=__firehol_abusers_1d address=69.58.3.230
 add list=__firehol_abusers_1d address=69.58.12.50
@@ -2534,7 +2531,6 @@ add list=__firehol_abusers_1d address=85.15.98.69
 add list=__firehol_abusers_1d address=85.25.177.139
 add list=__firehol_abusers_1d address=85.49.2.52
 add list=__firehol_abusers_1d address=85.67.128.239
-add list=__firehol_abusers_1d address=85.75.91.27
 add list=__firehol_abusers_1d address=85.93.217.148
 add list=__firehol_abusers_1d address=85.93.218.204
 add list=__firehol_abusers_1d address=85.107.76.36
@@ -2594,7 +2590,6 @@ add list=__firehol_abusers_1d address=87.118.122.30
 add list=__firehol_abusers_1d address=87.118.122.51
 add list=__firehol_abusers_1d address=87.120.8.68
 add list=__firehol_abusers_1d address=87.126.166.140
-add list=__firehol_abusers_1d address=87.202.5.7
 add list=__firehol_abusers_1d address=87.237.165.31
 add list=__firehol_abusers_1d address=87.245.170.253
 add list=__firehol_abusers_1d address=87.249.132.169
@@ -3178,7 +3173,6 @@ add list=__firehol_abusers_1d address=103.204.157.41
 add list=__firehol_abusers_1d address=103.205.179.105
 add list=__firehol_abusers_1d address=103.206.138.154
 add list=__firehol_abusers_1d address=103.207.117.9
-add list=__firehol_abusers_1d address=103.209.254.113
 add list=__firehol_abusers_1d address=103.210.28.154
 add list=__firehol_abusers_1d address=103.211.15.241
 add list=__firehol_abusers_1d address=103.211.16.6
@@ -5578,9 +5572,6 @@ add list=__firehol_abusers_1d address=173.234.151.222
 add list=__firehol_abusers_1d address=173.234.151.224
 add list=__firehol_abusers_1d address=173.239.199.131
 add list=__firehol_abusers_1d address=173.239.199.132
-add list=__firehol_abusers_1d address=173.245.202.31
-add list=__firehol_abusers_1d address=173.245.202.228
-add list=__firehol_abusers_1d address=173.245.211.148
 add list=__firehol_abusers_1d address=173.247.237.115
 add list=__firehol_abusers_1d address=173.249.57.253
 add list=__firehol_abusers_1d address=173.254.247.22
@@ -7698,8 +7689,6 @@ add list=__firehol_abusers_1d address=216.131.114.84
 add list=__firehol_abusers_1d address=216.131.114.174
 add list=__firehol_abusers_1d address=216.131.117.38
 add list=__firehol_abusers_1d address=216.131.122.22
-add list=__firehol_abusers_1d address=216.151.180.112
-add list=__firehol_abusers_1d address=216.151.183.39
 add list=__firehol_abusers_1d address=216.165.233.241
 add list=__firehol_abusers_1d address=216.239.90.19
 add list=__firehol_abusers_1d address=217.14.194.73
