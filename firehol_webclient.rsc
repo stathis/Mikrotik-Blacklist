@@ -3,12 +3,14 @@
 # firehol_webclient
 # Author: Stathis Oureilidis <stathis@stathis.ch>
 #
-# Generation: Thu, 13 Oct 2022 12:15:08 +0300
+# Generation: Thu, 13 Oct 2022 16:15:09 +0300
 #
 ip firewall address-list
 remove [/ip firewall address-list find list=__firehol_webclient]
 add list=__firehol_webclient address=2.212.125.71
 add list=__firehol_webclient address=3.18.7.81
+add list=__firehol_webclient address=3.19.116.195
+add list=__firehol_webclient address=3.130.204.160
 add list=__firehol_webclient address=4.224.19.80
 add list=__firehol_webclient address=4.227.233.238
 add list=__firehol_webclient address=5.39.93.167
@@ -28,6 +30,7 @@ add list=__firehol_webclient address=18.217.89.38
 add list=__firehol_webclient address=18.221.206.237
 add list=__firehol_webclient address=20.0.55.151
 add list=__firehol_webclient address=20.4.34.58
+add list=__firehol_webclient address=20.5.184.76
 add list=__firehol_webclient address=20.8.114.183
 add list=__firehol_webclient address=20.14.95.62
 add list=__firehol_webclient address=20.19.175.78
@@ -222,6 +225,7 @@ add list=__firehol_webclient address=51.77.193.218
 add list=__firehol_webclient address=51.77.201.37
 add list=__firehol_webclient address=51.79.52.54
 add list=__firehol_webclient address=51.83.76.139
+add list=__firehol_webclient address=51.103.77.182
 add list=__firehol_webclient address=51.104.57.185
 add list=__firehol_webclient address=51.120.251.142
 add list=__firehol_webclient address=51.132.229.244
@@ -229,7 +233,6 @@ add list=__firehol_webclient address=51.158.166.175
 add list=__firehol_webclient address=52.23.192.29
 add list=__firehol_webclient address=52.40.17.212
 add list=__firehol_webclient address=52.59.236.170
-add list=__firehol_webclient address=52.71.57.184
 add list=__firehol_webclient address=52.86.6.113
 add list=__firehol_webclient address=52.142.225.51
 add list=__firehol_webclient address=52.152.149.95
@@ -244,7 +247,6 @@ add list=__firehol_webclient address=54.39.148.233
 add list=__firehol_webclient address=54.39.148.234
 add list=__firehol_webclient address=54.39.151.167
 add list=__firehol_webclient address=54.153.111.129
-add list=__firehol_webclient address=54.209.32.212
 add list=__firehol_webclient address=59.103.139.245
 add list=__firehol_webclient address=62.122.95.211
 add list=__firehol_webclient address=62.122.199.251
@@ -310,6 +312,7 @@ add list=__firehol_webclient address=76.233.79.190
 add list=__firehol_webclient address=76.244.173.237
 add list=__firehol_webclient address=77.92.75.4
 add list=__firehol_webclient address=77.105.36.251
+add list=__firehol_webclient address=77.111.240.50
 add list=__firehol_webclient address=77.120.113.64
 add list=__firehol_webclient address=77.247.181.165
 add list=__firehol_webclient address=79.124.8.3
@@ -581,6 +584,7 @@ add list=__firehol_webclient address=171.25.193.25
 add list=__firehol_webclient address=171.25.193.77
 add list=__firehol_webclient address=171.25.193.78
 add list=__firehol_webclient address=171.25.193.235
+add list=__firehol_webclient address=171.61.176.42
 add list=__firehol_webclient address=171.217.250.245
 add list=__firehol_webclient address=172.13.127.132
 add list=__firehol_webclient address=172.96.11.244
@@ -761,7 +765,6 @@ add list=__firehol_webclient address=205.185.117.149
 add list=__firehol_webclient address=205.185.121.209
 add list=__firehol_webclient address=205.185.127.219
 add list=__firehol_webclient address=205.214.204.100
-add list=__firehol_webclient address=206.188.193.120
 add list=__firehol_webclient address=206.190.197.160
 add list=__firehol_webclient address=207.244.70.35
 add list=__firehol_webclient address=208.59.78.1
@@ -786,6 +789,7 @@ add list=__firehol_webclient address=216.193.159.109
 add list=__firehol_webclient address=216.218.134.12
 add list=__firehol_webclient address=217.76.132.246
 add list=__firehol_webclient address=217.115.10.132
+add list=__firehol_webclient address=217.160.0.152
 add list=__firehol_webclient address=217.160.0.225
 add list=__firehol_webclient address=217.160.0.237
 add list=__firehol_webclient address=217.160.0.240
