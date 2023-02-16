@@ -3,7 +3,7 @@
 # firehol_webclient
 # Author: Stathis Oureilidis <stathis@stathis.ch>
 #
-# Generation: Thu, 16 Feb 2023 04:15:07 +0200
+# Generation: Thu, 16 Feb 2023 08:15:07 +0200
 #
 ip firewall address-list
 remove [/ip firewall address-list find list=__firehol_webclient]
@@ -611,6 +611,7 @@ add list=__firehol_webclient address=92.223.86.16
 add list=__firehol_webclient address=93.158.205.116
 add list=__firehol_webclient address=94.19.172.76
 add list=__firehol_webclient address=94.23.62.204
+add list=__firehol_webclient address=94.65.115.50
 add list=__firehol_webclient address=94.101.187.201
 add list=__firehol_webclient address=94.102.51.78
 add list=__firehol_webclient address=94.130.190.96
