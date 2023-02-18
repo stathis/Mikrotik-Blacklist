@@ -3,7 +3,7 @@
 # firehol_abusers_1d
 # Author: Stathis Oureilidis <stathis@stathis.ch>
 #
-# Generation: Sat, 18 Feb 2023 04:15:01 +0200
+# Generation: Sat, 18 Feb 2023 08:15:01 +0200
 #
 ip firewall address-list
 remove [/ip firewall address-list find list=__firehol_abusers_1d]
@@ -1195,7 +1195,6 @@ add list=__firehol_abusers_1d address=45.139.122.241
 add list=__firehol_abusers_1d address=45.139.124.19
 add list=__firehol_abusers_1d address=45.139.124.38
 add list=__firehol_abusers_1d address=45.139.177.95
-add list=__firehol_abusers_1d address=45.139.214.24
 add list=__firehol_abusers_1d address=45.140.13.176
 add list=__firehol_abusers_1d address=45.140.55.233
 add list=__firehol_abusers_1d address=45.140.184.71
@@ -2144,7 +2143,6 @@ add list=__firehol_abusers_1d address=84.247.62.128
 add list=__firehol_abusers_1d address=85.5.92.96
 add list=__firehol_abusers_1d address=85.12.61.132
 add list=__firehol_abusers_1d address=85.14.243.31
-add list=__firehol_abusers_1d address=85.73.88.73
 add list=__firehol_abusers_1d address=85.93.218.204
 add list=__firehol_abusers_1d address=85.98.180.94
 add list=__firehol_abusers_1d address=85.106.107.208
@@ -2211,7 +2209,6 @@ add list=__firehol_abusers_1d address=87.62.99.122
 add list=__firehol_abusers_1d address=87.101.92.171
 add list=__firehol_abusers_1d address=87.109.4.153
 add list=__firehol_abusers_1d address=87.118.110.27
-add list=__firehol_abusers_1d address=87.202.96.115
 add list=__firehol_abusers_1d address=87.205.170.45
 add list=__firehol_abusers_1d address=87.237.165.31
 add list=__firehol_abusers_1d address=87.245.170.253
@@ -5597,7 +5594,6 @@ add list=__firehol_abusers_1d address=178.128.200.136
 add list=__firehol_abusers_1d address=178.130.58.211
 add list=__firehol_abusers_1d address=178.133.204.188
 add list=__firehol_abusers_1d address=178.134.159.72
-add list=__firehol_abusers_1d address=178.147.89.193
 add list=__firehol_abusers_1d address=178.155.5.21
 add list=__firehol_abusers_1d address=178.155.5.25
 add list=__firehol_abusers_1d address=178.155.5.38
