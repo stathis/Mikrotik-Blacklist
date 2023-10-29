@@ -3,7 +3,7 @@
 # firehol_level1
 # Author: Stathis Oureilidis <stathis@stathis.ch>
 #
-# Generation: Sat, 28 Oct 2023 21:15:01 +0000
+# Generation: Sun, 29 Oct 2023 02:15:01 +0000
 #
 ip firewall address-list
 remove [/ip firewall address-list find list=__firehol_level1]
