@@ -3,7 +3,7 @@
 # firehol_webclient
 # Author: Stathis Oureilidis <stathis@stathis.ch>
 #
-# Generation: Thu, 07 Dec 2023 10:15:05 +0000
+# Generation: Thu, 07 Dec 2023 14:15:04 +0000
 #
 ip firewall address-list
 remove [/ip firewall address-list find list=__firehol_webclient]
@@ -14,11 +14,9 @@ add list=__firehol_webclient address=1.12.243.16
 add list=__firehol_webclient address=2.57.217.229
 add list=__firehol_webclient address=2.58.56.227
 add list=__firehol_webclient address=3.0.48.241
-add list=__firehol_webclient address=3.19.116.195
 add list=__firehol_webclient address=3.92.65.243
-add list=__firehol_webclient address=3.94.41.167
 add list=__firehol_webclient address=3.106.196.95
-add list=__firehol_webclient address=3.130.204.160
+add list=__firehol_webclient address=3.130.253.23
 add list=__firehol_webclient address=3.140.13.188
 add list=__firehol_webclient address=4.149.125.197
 add list=__firehol_webclient address=4.150.18.168
@@ -73,6 +71,7 @@ add list=__firehol_webclient address=20.10.19.252
 add list=__firehol_webclient address=20.10.143.180
 add list=__firehol_webclient address=20.10.145.179
 add list=__firehol_webclient address=20.10.197.78
+add list=__firehol_webclient address=20.14.88.80
 add list=__firehol_webclient address=20.22.187.102
 add list=__firehol_webclient address=20.26.229.159
 add list=__firehol_webclient address=20.29.76.13
@@ -159,6 +158,7 @@ add list=__firehol_webclient address=34.142.202.136
 add list=__firehol_webclient address=34.162.119.244
 add list=__firehol_webclient address=34.173.163.179
 add list=__firehol_webclient address=34.176.169.190
+add list=__firehol_webclient address=34.205.242.146
 add list=__firehol_webclient address=35.0.127.52
 add list=__firehol_webclient address=35.199.70.214
 add list=__firehol_webclient address=36.72.215.243
@@ -223,7 +223,6 @@ add list=__firehol_webclient address=43.228.124.217
 add list=__firehol_webclient address=43.228.124.245
 add list=__firehol_webclient address=43.251.16.209
 add list=__firehol_webclient address=44.200.140.28
-add list=__firehol_webclient address=44.213.108.239
 add list=__firehol_webclient address=45.23.128.237
 add list=__firehol_webclient address=45.32.114.191
 add list=__firehol_webclient address=45.33.99.119
@@ -364,7 +363,6 @@ add list=__firehol_webclient address=62.210.99.162
 add list=__firehol_webclient address=62.210.105.116
 add list=__firehol_webclient address=62.210.116.201
 add list=__firehol_webclient address=62.219.140.83
-add list=__firehol_webclient address=63.247.137.64
 add list=__firehol_webclient address=64.70.19.52
 add list=__firehol_webclient address=64.110.107.201
 add list=__firehol_webclient address=64.111.77.85
@@ -430,6 +428,7 @@ add list=__firehol_webclient address=76.218.237.13
 add list=__firehol_webclient address=76.233.79.190
 add list=__firehol_webclient address=76.244.173.237
 add list=__firehol_webclient address=77.92.75.4
+add list=__firehol_webclient address=77.111.240.50
 add list=__firehol_webclient address=77.120.113.64
 add list=__firehol_webclient address=77.247.181.165
 add list=__firehol_webclient address=78.94.33.178
@@ -486,6 +485,7 @@ add list=__firehol_webclient address=91.92.242.110
 add list=__firehol_webclient address=91.92.243.100
 add list=__firehol_webclient address=91.92.245.137
 add list=__firehol_webclient address=91.92.245.225
+add list=__firehol_webclient address=91.92.250.191
 add list=__firehol_webclient address=91.92.252.21
 add list=__firehol_webclient address=91.134.248.192
 add list=__firehol_webclient address=91.134.248.253
@@ -1069,6 +1069,7 @@ add list=__firehol_webclient address=192.185.83.227
 add list=__firehol_webclient address=192.185.176.222
 add list=__firehol_webclient address=192.227.144.105
 add list=__firehol_webclient address=193.9.115.24
+add list=__firehol_webclient address=193.111.248.114
 add list=__firehol_webclient address=193.142.146.226
 add list=__firehol_webclient address=193.169.145.66
 add list=__firehol_webclient address=193.169.145.194
@@ -1177,6 +1178,7 @@ add list=__firehol_webclient address=217.28.130.14
 add list=__firehol_webclient address=217.66.237.145
 add list=__firehol_webclient address=217.76.132.246
 add list=__firehol_webclient address=217.115.10.132
+add list=__firehol_webclient address=217.160.0.152
 add list=__firehol_webclient address=217.160.0.225
 add list=__firehol_webclient address=217.160.0.240
 add list=__firehol_webclient address=217.160.10.119
