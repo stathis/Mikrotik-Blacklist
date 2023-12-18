@@ -3,7 +3,7 @@
 # firehol_abusers_1d
 # Author: Stathis Oureilidis <stathis@stathis.ch>
 #
-# Generation: Mon, 18 Dec 2023 02:15:01 +0000
+# Generation: Mon, 18 Dec 2023 06:15:02 +0000
 #
 ip firewall address-list
 remove [/ip firewall address-list find list=__firehol_abusers_1d]
