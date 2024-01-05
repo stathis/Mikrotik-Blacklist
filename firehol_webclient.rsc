@@ -3,7 +3,7 @@
 # firehol_webclient
 # Author: Stathis Oureilidis <stathis@stathis.ch>
 #
-# Generation: Fri, 05 Jan 2024 10:15:05 +0000
+# Generation: Fri, 05 Jan 2024 14:15:05 +0000
 #
 ip firewall address-list
 remove [/ip firewall address-list find list=__firehol_webclient]
@@ -15,9 +15,12 @@ add list=__firehol_webclient address=2.57.121.121
 add list=__firehol_webclient address=2.57.217.229
 add list=__firehol_webclient address=2.58.56.77
 add list=__firehol_webclient address=3.0.48.241
-add list=__firehol_webclient address=3.19.116.195
+add list=__firehol_webclient address=3.18.7.81
 add list=__firehol_webclient address=3.92.65.243
+add list=__firehol_webclient address=3.94.41.167
 add list=__firehol_webclient address=3.106.196.95
+add list=__firehol_webclient address=3.130.253.23
+add list=__firehol_webclient address=3.140.13.188
 add list=__firehol_webclient address=4.149.125.197
 add list=__firehol_webclient address=4.150.18.168
 add list=__firehol_webclient address=4.150.46.37
@@ -51,7 +54,6 @@ add list=__firehol_webclient address=15.235.41.184
 add list=__firehol_webclient address=15.235.51.198
 add list=__firehol_webclient address=16.171.139.192
 add list=__firehol_webclient address=18.85.192.253
-add list=__firehol_webclient address=18.119.154.66
 add list=__firehol_webclient address=18.236.145.163
 add list=__firehol_webclient address=20.0.91.234
 add list=__firehol_webclient address=20.0.160.222
@@ -141,6 +143,7 @@ add list=__firehol_webclient address=31.171.155.68
 add list=__firehol_webclient address=31.185.104.19
 add list=__firehol_webclient address=34.70.155.212
 add list=__firehol_webclient address=34.95.212.108
+add list=__firehol_webclient address=34.106.210.216
 add list=__firehol_webclient address=34.106.233.247
 add list=__firehol_webclient address=34.142.202.136
 add list=__firehol_webclient address=34.162.119.244
@@ -293,7 +296,7 @@ add list=__firehol_webclient address=51.178.211.183
 add list=__firehol_webclient address=51.255.77.9
 add list=__firehol_webclient address=52.24.89.54
 add list=__firehol_webclient address=52.36.220.100
-add list=__firehol_webclient address=52.71.57.184
+add list=__firehol_webclient address=52.86.6.113
 add list=__firehol_webclient address=52.146.8.15
 add list=__firehol_webclient address=52.172.14.56
 add list=__firehol_webclient address=52.172.91.149
@@ -506,6 +509,7 @@ add list=__firehol_webclient address=103.44.91.114
 add list=__firehol_webclient address=103.50.81.154
 add list=__firehol_webclient address=103.54.59.126
 add list=__firehol_webclient address=103.72.70.199
+add list=__firehol_webclient address=103.77.246.241
 add list=__firehol_webclient address=103.95.14.103
 add list=__firehol_webclient address=103.102.228.188
 add list=__firehol_webclient address=103.106.114.5
@@ -656,6 +660,7 @@ add list=__firehol_webclient address=138.68.239.241
 add list=__firehol_webclient address=138.91.72.20
 add list=__firehol_webclient address=138.118.204.158
 add list=__firehol_webclient address=138.197.145.221
+add list=__firehol_webclient address=138.197.212.108
 add list=__firehol_webclient address=138.199.59.152
 add list=__firehol_webclient address=138.199.60.181
 add list=__firehol_webclient address=139.59.43.238
@@ -856,6 +861,7 @@ add list=__firehol_webclient address=172.190.39.36
 add list=__firehol_webclient address=172.190.114.178
 add list=__firehol_webclient address=172.200.46.199
 add list=__firehol_webclient address=172.200.209.3
+add list=__firehol_webclient address=172.203.240.71
 add list=__firehol_webclient address=172.232.31.239
 add list=__firehol_webclient address=172.232.172.247
 add list=__firehol_webclient address=172.233.194.63
@@ -1095,6 +1101,7 @@ add list=__firehol_webclient address=217.12.202.103
 add list=__firehol_webclient address=217.66.237.145
 add list=__firehol_webclient address=217.76.132.246
 add list=__firehol_webclient address=217.115.10.132
+add list=__firehol_webclient address=217.160.0.152
 add list=__firehol_webclient address=217.160.0.225
 add list=__firehol_webclient address=217.160.0.240
 add list=__firehol_webclient address=217.160.10.119
