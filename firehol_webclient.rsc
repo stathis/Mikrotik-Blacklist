@@ -3,7 +3,7 @@
 # firehol_webclient
 # Author: Stathis Oureilidis <stathis@stathis.ch>
 #
-# Generation: Sun, 09 Jun 2024 09:15:03 +0000
+# Generation: Sun, 09 Jun 2024 13:15:04 +0000
 #
 ip firewall address-list
 remove [/ip firewall address-list find list=__firehol_webclient]
@@ -526,6 +526,7 @@ add list=__firehol_webclient address=52.168.182.51
 add list=__firehol_webclient address=52.169.23.5
 add list=__firehol_webclient address=52.169.23.27
 add list=__firehol_webclient address=52.169.23.40
+add list=__firehol_webclient address=52.169.69.128
 add list=__firehol_webclient address=52.169.109.146
 add list=__firehol_webclient address=52.169.122.177
 add list=__firehol_webclient address=52.169.189.101
@@ -736,6 +737,7 @@ add list=__firehol_webclient address=83.229.85.42
 add list=__firehol_webclient address=83.229.115.28
 add list=__firehol_webclient address=84.17.59.34
 add list=__firehol_webclient address=84.239.41.197
+add list=__firehol_webclient address=84.247.144.87
 add list=__firehol_webclient address=84.247.158.1
 add list=__firehol_webclient address=84.247.188.53
 add list=__firehol_webclient address=85.10.137.146
@@ -983,6 +985,7 @@ add list=__firehol_webclient address=107.196.98.105
 add list=__firehol_webclient address=107.198.103.53
 add list=__firehol_webclient address=107.215.51.164
 add list=__firehol_webclient address=108.59.12.2
+add list=__firehol_webclient address=108.61.119.232
 add list=__firehol_webclient address=108.61.191.208
 add list=__firehol_webclient address=108.87.91.50
 add list=__firehol_webclient address=108.90.158.122
@@ -1740,6 +1743,8 @@ add list=__firehol_webclient address=192.95.30.15
 add list=__firehol_webclient address=192.95.30.227
 add list=__firehol_webclient address=192.95.31.35
 add list=__firehol_webclient address=192.99.161.26
+add list=__firehol_webclient address=192.109.205.241
+add list=__firehol_webclient address=192.109.205.251
 add list=__firehol_webclient address=192.160.102.166
 add list=__firehol_webclient address=192.160.102.170
 add list=__firehol_webclient address=192.185.2.71
