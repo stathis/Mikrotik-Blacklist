@@ -3,7 +3,7 @@
 # blocklist_net_ua
 # Author: Stathis Oureilidis <stathis@stathis.ch>
 #
-# Generation: Fri, 11 Oct 2024 01:15:05 +0000
+# Generation: Fri, 11 Oct 2024 05:15:05 +0000
 #
 ip firewall address-list
 remove [/ip firewall address-list find list=__blocklist_net_ua]
@@ -19545,6 +19545,8 @@ add list=__blocklist_net_ua address=68.235.52.68
 add list=__blocklist_net_ua address=68.249.168.202
 add list=__blocklist_net_ua address=68.251.240.241
 add list=__blocklist_net_ua address=69.14.104.186
+add list=__blocklist_net_ua address=69.16.157.41
+add list=__blocklist_net_ua address=69.16.157.155
 add list=__blocklist_net_ua address=69.16.197.126
 add list=__blocklist_net_ua address=69.16.238.70
 add list=__blocklist_net_ua address=69.16.238.181
@@ -76981,6 +76983,8 @@ add list=__blocklist_net_ua address=205.185.125.234
 add list=__blocklist_net_ua address=205.185.125.235
 add list=__blocklist_net_ua address=205.185.126.168
 add list=__blocklist_net_ua address=205.185.127.231
+add list=__blocklist_net_ua address=205.185.193.10
+add list=__blocklist_net_ua address=205.185.222.182
 add list=__blocklist_net_ua address=205.196.184.67
 add list=__blocklist_net_ua address=205.196.214.14
 add list=__blocklist_net_ua address=205.196.217.57
@@ -80664,6 +80668,8 @@ add list=__blocklist_net_ua address=216.144.248.23
 add list=__blocklist_net_ua address=216.144.248.162
 add list=__blocklist_net_ua address=216.147.121.100
 add list=__blocklist_net_ua address=216.150.240.162
+add list=__blocklist_net_ua address=216.151.183.64
+add list=__blocklist_net_ua address=216.151.183.213
 add list=__blocklist_net_ua address=216.153.99.162
 add list=__blocklist_net_ua address=216.155.93.238
 add list=__blocklist_net_ua address=216.155.222.39
