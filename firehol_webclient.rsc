@@ -3,7 +3,7 @@
 # firehol_webclient
 # Author: Stathis Oureilidis <stathis@stathis.ch>
 #
-# Generation: Mon, 04 Nov 2024 10:15:04 +0000
+# Generation: Mon, 04 Nov 2024 14:15:04 +0000
 #
 ip firewall address-list
 remove [/ip firewall address-list find list=__firehol_webclient]
@@ -189,6 +189,7 @@ add list=__firehol_webclient address=13.114.104.95
 add list=__firehol_webclient address=13.115.247.187
 add list=__firehol_webclient address=13.126.73.82
 add list=__firehol_webclient address=13.127.42.35
+add list=__firehol_webclient address=13.127.43.164
 add list=__firehol_webclient address=13.127.188.220
 add list=__firehol_webclient address=13.208.44.75
 add list=__firehol_webclient address=13.208.168.81
@@ -476,6 +477,8 @@ add list=__firehol_webclient address=36.78.75.250
 add list=__firehol_webclient address=36.78.81.84
 add list=__firehol_webclient address=37.19.205.183
 add list=__firehol_webclient address=37.19.206.37
+add list=__firehol_webclient address=37.28.156.230
+add list=__firehol_webclient address=37.28.156.236
 add list=__firehol_webclient address=37.59.53.82
 add list=__firehol_webclient address=37.60.232.99
 add list=__firehol_webclient address=37.111.163.156
@@ -917,6 +920,7 @@ add list=__firehol_webclient address=52.178.207.167
 add list=__firehol_webclient address=52.178.207.196
 add list=__firehol_webclient address=52.178.208.55
 add list=__firehol_webclient address=52.178.213.218
+add list=__firehol_webclient address=52.178.218.89
 add list=__firehol_webclient address=52.178.218.139
 add list=__firehol_webclient address=52.178.219.77
 add list=__firehol_webclient address=52.178.220.65
@@ -1380,6 +1384,7 @@ add list=__firehol_webclient address=94.156.69.32
 add list=__firehol_webclient address=94.156.69.45
 add list=__firehol_webclient address=94.156.69.183
 add list=__firehol_webclient address=94.156.253.31
+add list=__firehol_webclient address=94.176.161.161
 add list=__firehol_webclient address=94.230.208.147
 add list=__firehol_webclient address=94.230.208.148
 add list=__firehol_webclient address=94.230.211.233
