@@ -1,0 +1,11 @@
+#
+# Blaclist for RouterOS
+# firehol_level1
+# Author: Stathis Oureilidis <stathis@stathis.ch>
+#
+# Generation: Thu, 02 Jul 2026 21:15:01 +0000
+#
+ip firewall address-list
+remove [/ip firewall address-list find list=__firehol_level1]
+add list=__firehol_level1 address=50.16.16.211
+
